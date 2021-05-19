@@ -1,0 +1,16 @@
+.container__app {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 80%;
+  margin: auto;
+  min-height: 100%;
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .container__app {
+    display: block;
+  }
+  .hero__contenedor {
+    height: 1540px;
+  }
+}

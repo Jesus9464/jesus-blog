@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Nunito:wght@300&family=Pompiere&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Pompiere", cursive;
+}
+
+.contenedor {
+  width: 100%;
+  background-color: white;
+}
+.container__hero {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  height: 60px;
+  width: 100%;
+}
+.container__hero_barra {
+  border-bottom: 5px solid black;
+  margin: 0;
+  padding: 0;
+}
+/* ------------------contenedor------------------- */
+.hero__contenedor {
+  padding: 20px 50px;
+}
+
+.hero__contenedor_hero {
+  margin: 40px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hero__contenedor_hero h3 {
+  margin: 3px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.hero__contenedor_hero a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.hero__contenedor_hero a:hover {
+  color: blue;
+}
+
+.hero__contenedor_hero p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+/* ----------------ESTUDIO------------------------- */
+.hero__contenedor_estudio {
+  margin: 10px 0;
+}
+
+.hero__contenedor_estudio h2 {
+  margin: 20px 0;
+}
+
+.hero__contenedor_estudio p {
+  font-size: 20px;
+}
+/* ----------referencias---------- */
+.hero__contenedor_referencias {
+  margin: 10px 0;
+}
+
+.hero__contenedor_referencias h2 {
+  margin: 20px 0;
+}
+
+.hero__contenedor_referencias p {
+  font-size: 20px;
+}
+/* --------barra abajo----- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container__hero_barra-abajo {
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.container__hero_barra-abajo a {
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.container__hero_barra-abajo img {
+  height: 25px;
+  width: 25px;
+}
