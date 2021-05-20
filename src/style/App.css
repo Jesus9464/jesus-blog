@@ -9,8 +9,10 @@
 @media only screen and (max-width: 600px) {
   .container__app {
     display: block;
+    height: 100%;
   }
-  .hero__contenedor {
-    height: 200vh;
+
+  .contenedor {
+    height: 1650px;
   }
 }
