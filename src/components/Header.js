@@ -17,13 +17,13 @@ function Header() {
       <div className="hero__container">
         <h2>ACERCA DE MI:</h2>
         <p className="hero__parrafo">
-          Soy estudiante activo de la plataforma Platzi, en la escula de{" "}
-          <strong>Desarrollo web como fronten Developer</strong> y egresado del
-          del Sena con un tecnologo en Gestión Administrativa, con amplia
+          Soy estudiante activo de la plataforma Platzi, en la escuela de{" "}
+          <strong>Desarrollo web como frontend Developer</strong> y egresado del
+          del Sena con un tecnólogo en Gestión Administrativa, con amplia
           experiencia en el manejo de aplicaciones ofimáticas, nivel intermedio
           de Excel, Acces, Word, Power Point, e instalaciones de sistemas
           operativos de Windows o Ubuntu, desarrollador de páginas web en
-          diversas plataformas tecnológicas y base de datos complejas en Excel .
+          diversas plataformas tecnológicas y base de datos complejas en Excel.
           Con mi preparación académica y mi formación laboral en diferentes
           empresas ejerciendo el cargo como Coordinador de bodega y jefe de
           inventarios aplicando mis conocimientos en diferentes cargos
